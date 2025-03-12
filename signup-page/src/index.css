@@ -1,12 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e1d3fa;
+  background-color: black;
   color: black;
 }
 main{
+
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 250px;
+  flex-wrap: wrap;
+}
+.signup{
+  padding: 10px;
+  /* background-color: blue; */
+  margin: 0px;
+}
+.logo{
+  /* margin-left: 100px; */
+  /* background-color: blue; */
+  padding: 10px;
+  margin: 0px;
 }
 :root {
   margin: 0;

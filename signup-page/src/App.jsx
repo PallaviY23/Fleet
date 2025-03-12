@@ -7,10 +7,6 @@ function App() {
 
   return (
     <>
-    <header className='header'>
-      <img src="/public/Fleet Logo.png" alt="Fleet Logo" />
-      <h1 >FLEET</h1>
-    </header>
     <div className='logo'>
       <img src="/public/Fleet Logo.png" alt="Fleet Logo" />
       <h1>FLEET</h1>

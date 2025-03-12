@@ -7,12 +7,12 @@
 }
 .logo{
   position: relative;
-  left: -262px;
   display: flex;
   align-items: center;
   justify-items: center;
   justify-content: center;
   flex-direction: column;
+  /* margin: ; */
 }
 .logo>img{
   width: 314px;
