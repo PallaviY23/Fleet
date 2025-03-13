@@ -19,24 +19,24 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 240px;
   flex-wrap: wrap;
 }
 
 /* Centering the Main Content */
 .d-flex.justify-content-center.align-items-center.vh-100 {
-  background-color: blue; /* Light purple background */
-  margin: 0px;
+  /* background-color: blue; Light purple background */
+  /* margin: 0px; */
   padding: 40px;
 }
 
 /* Logo Styling */
 .logo {
   /* margin-left: 100px; */ /* Commented-out styles */
-  background-color: blue;
+  /* background-color: blue; */
   /* margin: 40px; */
   margin-top: -150px;
-  margin-left: 40px;
+  margin-left: 140px;
   padding: 40px;
-  margin: 0px;
+  /* margin: 0px; */
 }
