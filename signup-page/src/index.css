@@ -1,44 +1,42 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  color: black;
-}
-main{
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 250px;
-  flex-wrap: wrap;
-}
-.signup{
-  padding: 10px;
-  /* background-color: blue; */
-  margin: 0px;
-}
-.logo{
-  /* margin-left: 100px; */
-  /* background-color: blue; */
-  padding: 10px;
-  margin: 0px;
-}
+/* Root Variables */
 :root {
   margin: 0;
   padding: 0;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: black;
-
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Main Container */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
+/* Centering the Main Content */
+.d-flex.justify-content-center.align-items-center.vh-100 {
+  background-color: blue; /* Light purple background */
+  margin: 0px;
+  padding: 40px;
+}
+
+/* Logo Styling */
+.logo {
+  /* margin-left: 100px; */ /* Commented-out styles */
+  background-color: blue;
+  /* margin: 40px; */
+  margin-top: -150px;
+  margin-left: 40px;
+  padding: 40px;
+  margin: 0px;
+}
