@@ -5,15 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Signup from './Signup.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <>
+  <main >
     <header className='header'>
       <img src="/public/Fleet Logo.png" alt="Fleet Logo" />
       <h1 >FLEET</h1>
     </header>
-    <main>
+    <div className='mainsnippet'>
       <App />
       <Signup/>
-    </main>
-  </>
+    </div>
+  </main>
   
 )
