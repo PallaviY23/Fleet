@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./Past.css";
 
 function BookingCard() {
   return (
